@@ -24,7 +24,7 @@ CREATE TABLE ProductDescription (
     ProductID INT,
     CountryID INT,
     PRIMARY KEY (ID)
-) ENGINE=MyISAM;
+) ENGINE=InnoDB;
 
 -- Create a table for storing logs
 CREATE TABLE Logs (
